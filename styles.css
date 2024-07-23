@@ -28,16 +28,29 @@ main {
     padding: 1em;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.intro p {
+.intro-text {
+    flex: 1;
+    padding-right: 1em;
+}
+
+.intro-text p {
     margin: 0;
     color: #333;
 }
 
+.intro-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .intro-image {
-    margin-top: 1em;
     max-width: 100%;
     height: auto;
     border-radius: 5px;

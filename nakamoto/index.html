@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Nakamoto Countdown">
 <meta name="twitter:description" content="See the countdown to Nakamoto">
-<meta name="twitter:image" content="https://anibal.boscoboinik/nakamoto/countdown.png">
+<meta name="twitter:image" content="https://anibal.boscoboinik.com/nakamoto/countdown.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nakamoto - t</title>
     <style>
         body {
@@ -22,14 +22,16 @@
         #container {
             width: 603px;
             height: 800px;
-            background: url('/images/046.jpg') no-repeat center center;
+            background-image: url('images/046.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
             background-size: cover;
             position: relative;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            box-shadow: 0 0 20px rgba(0,0,0,0.3); /* Optional: adds depth */
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
         }
         #overlay {
             background: rgba(255, 255, 255, 0.7);
